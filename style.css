@@ -94,5 +94,5 @@ li a:hover{
   margin-right: auto;
   height: 273px;
   width: 119px;
-  border: 2px solid black;
+  border: 2px dashed black;
 }
