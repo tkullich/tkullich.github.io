@@ -92,6 +92,7 @@ li a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  height: 273px;
+  width: 119px;
   border: 2px solid black;
 }
