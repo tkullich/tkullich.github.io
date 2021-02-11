@@ -89,3 +89,16 @@ li a:hover{
   max-width: 80em;
   border: dashed;
 }
+.tableCSS{
+  background-color: #b3e6ff;
+}
+td{
+  text-align:center;
+  font-weight: bold;
+}
+td:nth-child(even){
+  background-color: #99ccff;
+}
+td:nth-child(odd){
+  background-color: #66b3ff;
+}
