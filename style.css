@@ -83,3 +83,8 @@ li a:hover{
   background-color: #4CAF50;
   color: white;
 }
+.v1_changelog {
+  display: table;
+  margin: 0 auto;
+  font-size: 150%
+}
