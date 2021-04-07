@@ -121,3 +121,19 @@ td:nth-child(even){
 td:nth-child(odd){
   background-color: #66b3ff;
 }
+.horizontal-scroll-except-first-column {
+  width: 100%;
+  overflow: auto;
+}
+.horizontal-scroll-except-first-column > table {
+  margin-left: 0em;
+}
+.horizontal-scroll-except-first-column > table > * > tr > th:first-child,
+.horizontal-scroll-except-first-column > table > * > tr > td:first-child {
+  position: relative;
+}
+.horizontal-scroll-except-first-column > table > * > tr > th,
+.horizontal-scroll-except-first-column > table > * > tr > td {
+  white-space: nowrap;
+  padding: 7px;
+}
