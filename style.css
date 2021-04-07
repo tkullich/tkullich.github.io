@@ -2,8 +2,9 @@
 
 #welcome {
   font-family: tangerine;
-  font-size: 5em;
+  font-size: 10em;
   margin: 1em;
+  text-align: center;
 }
 
 .center {
